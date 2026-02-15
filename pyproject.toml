@@ -1,14 +1,12 @@
 [build-system]
 requires = [
 	"setuptools>=77",
-	"setuptools_scm[toml]>=3.4.1",
-	# jaraco/skeleton#174
-	"coherent.licensed",
 ]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "tempora"
+version = "5.8.1"
 authors = [
 	{ name = "Jason R. Coombs", email = "jaraco@jaraco.com" },
 ]
@@ -21,12 +19,10 @@ classifiers = [
 	"Programming Language :: Python :: 3 :: Only",
 ]
 requires-python = ">=3.9"
-license = "MIT"
 dependencies = [
 	"jaraco.functools>=1.20",
 	"python-dateutil",
 ]
-dynamic = ["version"]
 
 [project.urls]
 Source = "https://github.com/jaraco/tempora"
@@ -80,6 +76,3 @@ type = [
 
 [project.scripts]
 calc-prorate = "tempora:calculate_prorated_values"
-
-
-[tool.setuptools_scm]
