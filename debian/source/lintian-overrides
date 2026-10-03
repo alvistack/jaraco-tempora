@@ -1,0 +1,5 @@
+python-tempora source: file-without-copyright-information
+python-tempora source: no-debian-changes
+python-tempora source: source-contains-prebuilt-windows-binary
+python-tempora source: source-is-missing
+python-tempora source: source-package-encodes-python-version
